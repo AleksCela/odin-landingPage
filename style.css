@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+  }
+
+.big-container{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    height: fit-content;
+}
+
+.big-container .one .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.big-container .one .row .link {
+    margin: 10px;
+}
+
+
+
+.one{
+    background-color: #1f2937;
+    flex: 1;
+    align-self: stretch;
+    color: #F9FAF8;
+    padding-left: 50px;
+    
+}
+
+.one h1{
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+
+.one button{
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10%;
+}
+
+.two{
+    background-color: rgb(219, 11, 11);
+    flex: 1;
+    align-self: stretch;
+}
+
+.three{
+    background-color: rgb(157, 207, 40);
+    flex: 1;
+    align-self: stretch;
+}
+
+.four{
+    background-color: rgb(31, 129, 146);
+    flex: 1 ;
+    align-self: stretch;
+}
+
+.five{
+    background-color: #1f2937;
+    flex: 1 ;
+    align-self: stretch;
+    text-align: center;
+    color: white;
+}
