@@ -19,7 +19,17 @@ html, body {
     justify-content: space-between;
     margin: 10px;
 }
-
+.placeholder{
+    height: 100px;
+    width: 150px;
+    border-style: solid;
+}
+.minirow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
 
 
 .one{
