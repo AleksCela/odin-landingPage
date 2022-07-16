@@ -17,8 +17,6 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.big-container .one .row .link {
     margin: 10px;
 }
 
