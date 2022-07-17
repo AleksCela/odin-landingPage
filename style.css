@@ -18,19 +18,23 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
     margin: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 .placeholder{
     height: 200px;
     width: 400px;
     border-style: solid;
+    margin-left: 50px;
 }
 .minirow{
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
-
 
 .one{
     background-color: #1f2937;
@@ -38,13 +42,11 @@ html, body {
     align-self: stretch;
     color: #F9FAF8;
     padding-left: 50px;
-    
 }
 
 .one h1{
     font-weight: bolder;
-    font-size: 48px;
-
+    font-size: 60px;
 }
 
 .one button{
@@ -57,23 +59,154 @@ html, body {
   border-radius: 10%;
 }
 
+
+
+
+
 .two{
-    background-color: rgb(219, 11, 11);
+    background-color: white;
     flex: 1;
     align-self: stretch;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.two .kutite{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    align-items: center;
+    
+}
+.two .kutite .kuti1{
+    justify-content: center;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.two .kutite .kuti1 .img1{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.two .kutite .kuti2{
+    justify-content: center;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.two .kutite .kuti2 .img2{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+
+}
+
+.two .kutite .kuti3{
+    justify-content: center;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.two .kutite .kuti3 .img3{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+
+}
+.two .kutite .kuti4{
+    justify-content: center;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+.two .kutite .kuti4 .img4{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+
+
+}
+.two .kutite p{
+    color: red;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
 
 .three{
-    background-color: rgb(157, 207, 40);
+    background-color: #E5E7EB;
     flex: 1;
     align-self: stretch;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 50px;
 }
 
+
+
+
+
+
+
 .four{
-    background-color: rgb(31, 129, 146);
+    background-color: white;
     flex: 1 ;
     align-self: stretch;
 }
+.four .bottom{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 50px;
+}
+.four button{
+    background-color: Transparent;
+    border-radius: 5px;
+    border-color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 160px;
+    color: white;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
 
 .five{
     background-color: #1f2937;
